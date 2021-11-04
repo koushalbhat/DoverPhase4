@@ -1,0 +1,49 @@
+﻿@model JoePizzaApp.Models.ShoppingCartViewModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Shopping Cart</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Selected Quantity
+            </th>
+            <th>Laptop</th>
+            <th class="text-right">Price</th>
+            <th class="text-right">SubTotal</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.ShoppingCart.ShoppingCartItems)
+        {
+            <tr>
+                <td class="text-center">@item.Qty</td>
+                <td class="text-left">@item.Pizza.PizzaType</td>
+                <td class="text-right">@item.Pizza.Cost.ToString("c")</td>
+                <td class="text-right">
+                    @((item.Qty * item.Pizza.Cost).ToString("c"))
+                </td>
+                <td>
+                    <a id="delete-cart-@item.ShoppingCartItemId" type="button" class="btn btn-danger" asp-controller="ShoppingCart" asp-action="RemoveFromCart" asp-route-pizzaId="@item.Pizza.PizzaId">X</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="3" class="text-right">Total:</td>
+            <td class="text-right">
+                @Model.ShoppingCartTotal.ToString("c")
+            </td>
+        </tr>
+    </tfoot>
+</table>
+
+<div class="text-center">
+    <a id="checkout-now" class="btn btn-outline-primary" asp-controller="Orders" asp-action="Checkout">Checkout Now!</a>
+    <a id="add-more" class="btn btn-outline-primary" asp-controller="Home" asp-action="Index">Add More Items</a>
+</div>

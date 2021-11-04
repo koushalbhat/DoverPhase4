@@ -1,0 +1,52 @@
+﻿@model IEnumerable<JoePizzaApp.Models.OrderDetail>
+
+@{
+    ViewData["Title"] = "TrackOrder";
+}
+<h1>@ViewBag.CheckoutCompleteMessage</h1>
+
+<h1>TrackOrder</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Qty)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Pizza)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Order)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Qty)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Price)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Pizza.PizzaType)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Order.FirstName)
+                    @Html.DisplayFor(modelItem => item.Order.LastName)
+                    @Html.DisplayFor(modelItem => item.Order.AddressLine1)
+                    @Html.DisplayFor(modelItem => item.Order.AddressLine2)
+                    @Html.DisplayFor(modelItem => item.Order.City)
+                    @Html.DisplayFor(modelItem => item.Order.State)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

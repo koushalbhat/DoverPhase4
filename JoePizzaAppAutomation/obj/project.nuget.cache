@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "6okTVvTPmGjK5xFjyhVeWT0l/sJ2PxdxcbkA+Yl8E9jdn7B6gpkny46O/E9+hbrVgg1+8tToOZziTiNKvwe5Ww==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\11036289\\source\\repos\\JoePizzaApp\\JoePizzaAppAutomation\\JoePizzaAppAutomation.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\11036289\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\11036289\\.nuget\\packages\\selenium.webdriver\\4.0.1\\selenium.webdriver.4.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

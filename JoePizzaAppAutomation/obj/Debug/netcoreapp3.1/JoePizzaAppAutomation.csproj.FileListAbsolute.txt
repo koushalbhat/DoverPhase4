@@ -1,0 +1,16 @@
+C:\Users\11036289\source\repos\JoePizzaApp\JoePizzaAppAutomation\bin\Debug\netcoreapp3.1\JoePizzaAppAutomation.exe
+C:\Users\11036289\source\repos\JoePizzaApp\JoePizzaAppAutomation\bin\Debug\netcoreapp3.1\JoePizzaAppAutomation.deps.json
+C:\Users\11036289\source\repos\JoePizzaApp\JoePizzaAppAutomation\bin\Debug\netcoreapp3.1\JoePizzaAppAutomation.runtimeconfig.json
+C:\Users\11036289\source\repos\JoePizzaApp\JoePizzaAppAutomation\bin\Debug\netcoreapp3.1\JoePizzaAppAutomation.runtimeconfig.dev.json
+C:\Users\11036289\source\repos\JoePizzaApp\JoePizzaAppAutomation\bin\Debug\netcoreapp3.1\JoePizzaAppAutomation.dll
+C:\Users\11036289\source\repos\JoePizzaApp\JoePizzaAppAutomation\bin\Debug\netcoreapp3.1\JoePizzaAppAutomation.pdb
+C:\Users\11036289\source\repos\JoePizzaApp\JoePizzaAppAutomation\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\11036289\source\repos\JoePizzaApp\JoePizzaAppAutomation\bin\Debug\netcoreapp3.1\WebDriver.dll
+C:\Users\11036289\source\repos\JoePizzaApp\JoePizzaAppAutomation\obj\Debug\netcoreapp3.1\JoePizzaAppAutomation.csproj.AssemblyReference.cache
+C:\Users\11036289\source\repos\JoePizzaApp\JoePizzaAppAutomation\obj\Debug\netcoreapp3.1\JoePizzaAppAutomation.AssemblyInfoInputs.cache
+C:\Users\11036289\source\repos\JoePizzaApp\JoePizzaAppAutomation\obj\Debug\netcoreapp3.1\JoePizzaAppAutomation.AssemblyInfo.cs
+C:\Users\11036289\source\repos\JoePizzaApp\JoePizzaAppAutomation\obj\Debug\netcoreapp3.1\JoePizzaAppAutomation.csproj.CoreCompileInputs.cache
+C:\Users\11036289\source\repos\JoePizzaApp\JoePizzaAppAutomation\obj\Debug\netcoreapp3.1\JoePizzaAppAutomation.csproj.CopyComplete
+C:\Users\11036289\source\repos\JoePizzaApp\JoePizzaAppAutomation\obj\Debug\netcoreapp3.1\JoePizzaAppAutomation.dll
+C:\Users\11036289\source\repos\JoePizzaApp\JoePizzaAppAutomation\obj\Debug\netcoreapp3.1\JoePizzaAppAutomation.pdb
+C:\Users\11036289\source\repos\JoePizzaApp\JoePizzaAppAutomation\obj\Debug\netcoreapp3.1\JoePizzaAppAutomation.genruntimeconfig.cache

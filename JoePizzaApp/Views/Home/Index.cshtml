@@ -1,0 +1,33 @@
+﻿@model IEnumerable<JoePizzaApp.Models.Pizza>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Welcome to Joe's Pizza</h1>
+@await Component.InvokeAsync("ShoppingCartSummary")
+<div>
+    <a id="track-order" type="button" class="btn btn-outline-primary" asp-controller="Orders" asp-action="TrackYourOrder">Track your Order</a>
+</div>
+<div class="row">
+    @foreach (var item in Model)
+    {
+        <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+                <img class="bd-placeholder-img card-img-top" width="100" src="@item.ImageUrl" />
+
+                <div class="card-body">
+                    <p class="card-text"><strong>@item.PizzaType</strong></p>
+
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <a id="add-to-cart-@item.PizzaId" type="button" class="btn btn-outline-primary btn-sm" asp-controller="ShoppingCart" asp-action="AddToShoppingCart" asp-route-pizzaId="@item.PizzaId">Add To Cart</a>
+                        </div>
+                        <strong>@item.Cost.ToString("c")</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    }
+</div>
